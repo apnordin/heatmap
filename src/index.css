@@ -54,7 +54,7 @@ code {
 .toggle-heatmap:active {
   background-color: #7168eb;
   border: 1px solid #5c51f3;
-  box-shadow: 0px 0px 32px #dfaadd60;
+  box-shadow: 0px 0px 8px #dfaadd60;
 }
 
 .toggle-heatmap:focus {

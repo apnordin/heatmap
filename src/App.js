@@ -50,9 +50,9 @@ function App() {
   }, [clickTimesArray]);
 
   return (
-    <div className="App" onMouseMove={createDot} onClick={handleClick}>
-      <div class="main-content">
-        <button class="toggle-heatmap" onClick={toggleHeatmap}>
+    <div className="App" onMouseMove={createDot} onMouseDown={handleClick}>
+      <div className="main-content">
+        <button className="toggle-heatmap" onClick={toggleHeatmap}>
           View heatmap
         </button>
         {isHeatmapVisible && (
